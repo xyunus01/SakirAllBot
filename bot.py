@@ -106,11 +106,11 @@ async def mentionall(event):
         usrtxt = ""
         
         
-        @client.on(events.NewMessage(pattern="^/adall ?(.*)"))
-async def adminall(event):
-  global anlik_calisan
-  if event.is_private:
-    return await event.respond("__Bu komut gruplarda ve kanallarda kullanılabilir.!__")
+@client.on(events.NewMessage(pattern="^/adall ?(.*)"))
+  async def adminall(event):
+    global anlik_calisan
+    if event.is_private:
+       return await event.respond("__Bu komut gruplarda ve kanallarda kullanılabilir.!__")
   
   admins = []
   async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
