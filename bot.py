@@ -25,9 +25,9 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("Merhaba {mention}\n**SakirTagger Bot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
+  await event.reply("**GroupTaggerBot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim Bu tür botlar için Kod Sahibi ile iletişime geçin @SakirBey1 ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/Sakirvipallbot?startgroup=a'),
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/Sakirvipall_bot?startgroup=a'),
                       Button.url('📣 Support', 'https://t.me/worldifsagroup'),
                       Button.url('🚀 Sahibim', 'https://t.me/SakirBey1')]
                     ),
@@ -35,10 +35,10 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Sakirtagger bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Günaydın!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj Bot, yanıtlanan iletiye kullanıcıları etiketleyecek \nYakında bir sürü özellikler eklenecektir"
+  helptext = "**UserTagger bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Günaydın!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj Bot, yanıtlanan iletiye kullanıcıları etiketleyecek"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/Sakirvipallbot?startgroup=a'),
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/Sakirvipall_bot?startgroup=a'),
                        Button.url('📣 Support', 'https://t.me/worldifsagroup'),
                       Button.url('🚀 Sahibim', 'https://t.me/SakirBey1')]
                     ),
