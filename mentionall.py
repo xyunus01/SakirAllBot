@@ -37,7 +37,7 @@ async def start(event):
   await event.reply("**GG 丶 GOLD**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/bilgi**'i tıklayın.",
                     buttons=(
                       [
-                         Button.url('➕ BENİ GRUBA EKLE ➕ ', 'http://t.me/sakirtagger_bot?startgroup=a')
+                         Button.url('➕ BENİ GRUBA EKLE ➕ ', 'http://t.me/gggoldtagger_bot?startgroup=a')
                       ],
                       [
                          Button.url('📣 Grubumuz', 'https://t.me/gggold2'),
@@ -53,7 +53,7 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('➕ BENİ GRUBA EKLE ➕', 'http://t.me/sakirtagger_bot?startgroup=a')
+                         Button.url('➕ BENİ GRUBA EKLE ➕', 'http://t.me/gggoldtagger_bot?startgroup=a')
                       ],
                       [
                          Button.url('📣 Grubumuz', 'https://t.me/gggold2'),
