@@ -41,8 +41,8 @@ async def start(event):
                       ],
                       [
                          Button.url('📣 Grubumuz', 'https://t.me/BestClanGlobal'),
-                         Button.url('👮Developer', 'https://t.me/SakirBey1'),
-                         Button.url('🎆 Sahib', 'https://t.me/BestClanGlobal')
+                         Button.url('👮Developer', 'https://t.me/kaptandcbot'),
+                         Button.url('✨Resmi Kanal', 'https://t.me/BestClanOfficial'),
                       ]
                     ),
                     link_preview=False
@@ -57,8 +57,8 @@ async def help(event):
                       ],
                       [
                          Button.url('📣 Grubumuz', 'https://t.me/BestClanGlobal'),
-                         Button.url('👮Developer', 'https://t.me/SakirBey1'),
-                         Button.url('🎆 Sahib', 'https://t.me/BestClanGlobal')
+                         Button.url('👮Developer', 'https://t.me/kaptandcbot'),
+                         Button.url('✨Resmi Kanal', 'https://t.me/BestClanOfficial'),
                       ]
                     ),
                     link_preview=False
