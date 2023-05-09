@@ -1,19 +1,19 @@
 {
-  "name": "Sakirvipall_bot",
+  "name": "katanataggerbot",
   "logo":"https://telegra.ph/file/dfa517fd00b6ca5f7ac9.jpg",
   "description": "User tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
   "env": {
     "TOKEN": {
-      "description": "bot token girin.",
-      "value": ""
+      "description": "6256855944:AAEvfoexkpJ_Y0tPkwdEP2JYW1uza-SSudQ",
+      "value": "6256855944:AAEvfoexkpJ_Y0tPkwdEP2JYW1uza-SSudQ"
     },
     "APP_ID": {
-      "description": "@otomytelegrambot dan api hash api id alınız.",
-      "value": ""
+      "description": "12965344",
+      "value": "12965344"
     },
     "API_HASH": {
-      "description": "@otomytelegrambot dan api hash api id alınız.",
-      "value": ""
+      "description": "ab06456c190e27560182fbce2887efd3",
+      "value": "ab06456c190e27560182fbce2887efd3"
     }
   },
   "buildpacks": [{
