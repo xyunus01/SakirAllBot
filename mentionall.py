@@ -11,9 +11,9 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-api_id = int(os.environ.get("APP_ID"))
-api_hash = os.environ.get("API_HASH")
-bot_token = os.environ.get("TOKEN")
+api_id = int(os.environ.get("12965344"))
+api_hash = os.environ.get("ab06456c190e27560182fbce2887efd3")
+bot_token = os.environ.get("6256855944:AAEvfoexkpJ_Y0tPkwdEP2JYW1uza-SSudQ")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 anlik_calisan = []
@@ -37,12 +37,12 @@ async def start(event):
   await event.reply("**Kaptan Tagger**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/bilgi**'i tıklayın.",
                     buttons=(
                       [
-                         Button.url('➕ BENİ GRUBA EKLE ➕ ', 'http://t.me/KaptanTaggerBot?startgroup=a')
+                         Button.url('➕ BENİ GRUBA EKLE ➕ ', 'http://t.me/KatanaTaggerBot?startgroup=a')
                       ],
                       [
-                         Button.url('📣 Grubumuz', 'https://t.me/BestClanGlobal'),
-                         Button.url('👮Developer', 'https://t.me/kaptandcbot'),
-                         Button.url('✨Resmi Kanal', 'https://t.me/BestClanOfficial'),
+                         Button.url('📣 Grubumuz', 'https://t.me/katanaprochat'),
+                         Button.url('👮Developer', 'https://t.me/yusufonly'),
+                         Button.url('✨Resmi Kanal', 'https://t.me/katanaprosorgu'),
                       ]
                     ),
                     link_preview=False
@@ -53,12 +53,12 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('➕ BENİ GRUBA EKLE ➕', 'http://t.me/KaptanTaggerBot?startgroup=a')
+                         Button.url('➕ BENİ GRUBA EKLE ➕', 'http://t.me/KatanaTaggerBot?startgroup=a')
                       ],
                       [
-                         Button.url('📣 Grubumuz', 'https://t.me/BestClanGlobal'),
-                         Button.url('👮Developer', 'https://t.me/kaptandcbot'),
-                         Button.url('✨Resmi Kanal', 'https://t.me/BestClanOfficial'),
+                         Button.url('📣 Grubumuz', 'https://t.me/katanaprochat'),
+                         Button.url('👮Developer', 'https://t.me/yusufonly'),
+                         Button.url('✨Resmi Kanal', 'https://t.me/katanaprosorgu'),
                       ]
                     ),
                     link_preview=False
